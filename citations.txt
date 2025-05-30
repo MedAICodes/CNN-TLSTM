@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the following paper."
+title: "Longitudinal Structural MRI-Based Deep Learning and Radiomics Features for Predicting Alzheimer's Disease Progression"
+authors:
+  - family-names: "Aghajanian, Mohammadifard, Mohammadi, ....."
+    given-names: "Sepehr, Fateme, Ida"
+    orcid: "https://orcid.org/0000-0001-6062-0138"
+doi: ""
+date-released: "2025-05-31"
