@@ -65,11 +65,12 @@ Within main.py, after training and evaluation:
 ## Example Visualizations
 
 
-    ### SHAP Explanation
-    ![Red and blue values corresponding to minimum and maximum SHAP values](images/shap_3d.gif)
+### SHAP Explanation
+![Red and blue values corresponding to minimum and maximum SHAP values](images/shap_3d.gif)
 
-    ### Grad-CAM Heatmaps
-    ![Grad-CAM Heatmap with red regions indicating highest activations for the model’s predictions](gradcam_3d.gif)
+### Grad-CAM Heatmaps
+![Grad-CAM Heatmap with red regions indicating highest activations for the model’s predictions](gradcam_3d.gif)
+
 
 
 
