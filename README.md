@@ -4,7 +4,7 @@ Asynchronous training of ResNet-18 and Time-aware LSTM
 This repository contains full training code for a 3D ResNet18 CNN backbone in Keras for survival prediction on preprocessed, spatially registered volumetric MRI data, along with GradCAM/SHAP explainability tools. 
 Our own implementation of the Time-aware LSTM model architecture (Baytas et. al., 2017) with vector-based attention and Cox proportional hazards loss (Deepsurv, Katzman et. al. 2018) are available in TLSTM-Dependencies.py The TimeLSTM and CoxPH model are implemented in PyTorch and can be integrated or trained separately as needed
 
-“Data required for training is not provided due to privacy restrictions regarding ADNI data. Please update the paths in config.py accordingly.”
+Data required for training is not provided due to privacy restrictions regarding ADNI data. Please update the paths in config.py accordingly.
 
 ## Code Structure
 
