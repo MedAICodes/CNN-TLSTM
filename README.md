@@ -62,7 +62,7 @@ Within main.py, after training and evaluation:
 - Generate **SHAP explanations** and **Grad-CAM heatmaps** for a selected sample from the training set  
 - Overlay **Grad-CAM heatmaps** and **SHAP values** on MRI slices  
 
-## Example Visualizations
+## Example Visualizations (Click to play)
 
 
 ### SHAP Explanation
