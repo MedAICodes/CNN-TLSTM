@@ -79,8 +79,5 @@ Within main.py, after training and evaluation:
 If you found this code useful, please cite the following paper.
 
 - Title: **Longitudinal Structural MRI-Based Deep Learning and Radiomics Features for Predicting Alzheimer's Disease Progression**
-- authors:
-  - family-names: "Aghajanian, Mohammadifard, Mohammadi, ....."
-    given-names: "Sepehr, Fateme, Ida, ......"
-    orcid: "https://orcid.org/0000-0001-6062-0138"
+- By: Aghajanian et. al. (2025)
 - doi: To be added....
