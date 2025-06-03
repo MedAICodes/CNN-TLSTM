@@ -14,7 +14,7 @@ Data required for training is not provided due to privacy restrictions regarding
 
 **data.py**: Data loading and preprocessing utilities for NIfTI files and CSV metadata
 
-**loss.py**: Custom loss functions for survival ranking and Cox proportional hazards
+**loss.py**: Custom loss functions for survival ranking
 
 **callbacks.py**: Custom Keras callbacks for validation and model saving
 
@@ -22,22 +22,7 @@ Data required for training is not provided due to privacy restrictions regarding
 
 **main.py**: Main script orchestrating training, evaluation, feature extraction, and explanations
 
-**config.py**: Hyperparameters and file path configuration
-
-## Configuration
-All hyperparameters and paths are defined in config.py, including:
-
-- Data paths (TRAIN_CSV, VAL_CSV, TEST_CSV)
-
-- Model parameters (DROPOUT_RATE, TARGET_SHAPE)
-
-- Training parameters (BATCH_SIZE, LEARNING_RATE, EPOCHS)
-
-- SHAP explanation parameters (SHAP_BACKGROUND_SIZE, SHAP_NSAMPLES)
-
-- Grad-CAM target layer (GRAD_CAM_LAYER)
-
-Modify this file to suit your dataset and environment.
+**config.py**: Hyperparameters and file path configuration. Modify this file to suit your dataset and environment.
 
 ## Training and Evaluation
 
