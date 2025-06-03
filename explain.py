@@ -27,6 +27,7 @@ def overlay_and_save_shap(pre, heatmap, out_dir, save_slices=True):
     heatmap_3d = np.squeeze(heatmap)
     pre_3d = np.squeeze(pre)
     p_low, p_high = np.percentile(heatmap_3d, (SHAP_LOW_PERCENTILE_CUT, SHAP_HIGH_PERCENTILE_CUT))
+    heatmap_3d = np.clip(heatmap_3d, p_low, p_high)
     cmap = LinearSegmentedColormap.from_list(
         'blue_transparent_red',
         [(0.0, 'blue'), (0.5, (1.0, 1.0, 1.0, 0.0)), (1.0, 'red')]
